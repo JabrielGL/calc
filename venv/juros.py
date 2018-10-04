@@ -9,3 +9,7 @@ def JurosSimples(valor, perc, tempo):
     fValor =valor+( (valor * (perc/100)) * tempo)
     return fValor
 
+def JurosComposto(valor, perc, tempo):
+    fValor = ((valor * (perc/100))**tempo)
+    return fValor
+
